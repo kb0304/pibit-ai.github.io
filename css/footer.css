@@ -1,0 +1,141 @@
+footer {
+  padding: 0;
+}
+
+.footer-wrapper {
+  background-color: #251a4a;
+}
+
+.footer-top {
+  border-bottom: 2px solid #ffffff;
+}
+
+.heading-top-footer {
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 36px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.41;
+  letter-spacing: 0.9px;
+  color: #ffffff;
+  margin-top: 140px;
+  margin-bottom: 40px;
+}
+
+.footer-btn-wrapper {
+  margin-bottom: 150px;
+}
+
+.footer-schedule-btn {
+  width: 299px;
+  height: 61px;
+  border-radius: 8px;
+  background-color: #7151e3;
+  font-size: 24px;
+  font-weight: 500;
+  color: #ffffff;
+  padding: 12px 40px;
+  cursor: pointer;
+}
+
+.footer-product-links {
+  font-size: 24px;
+  text-decoration: underline;
+  color: #ffffff;
+  margin-right: 25px;
+  cursor: pointer;
+}
+
+.product-right-links-wrapper {
+  margin-top: 85px;
+  margin-bottom: 75px;
+}
+
+.product-links-wrapper {
+  margin-bottom: 75px;
+}
+
+.footer-description {
+  font-size: 18px;
+  color: #9b9b9b;
+  width: 60%;
+}
+
+.bottom-footer-heading {
+  font-size: 24px;
+  color: #ffffff;
+  margin-top: 40px;
+}
+
+.footer-copyright {
+  font-size: 18px;
+  color: #ffffff;
+  width: 60%;
+  margin-bottom: 170px;
+}
+
+.social-link-img {
+  height: 50px;
+  margin-right: 25px;
+  cursor: pointer;
+}
+
+.mobile-footer-logo {
+  display: none;
+}
+
+.footer-logo {
+  height: 50px;
+  margin-right: 5px;
+}
+
+.footer-logo-text {
+  color: #ffffff;
+  font-weight: 600;
+  font-size: 28px;
+}
+
+.social-link-linkedIn {
+  font-size: 50px;
+  color: #0077b7 !important;
+}
+
+.footer-demo-btn-link:hover {
+  text-decoration: none;
+}
+
+@media (max-width: 768px) {
+  .footer-product-links {
+    font-size: 18px;
+    display: block;
+  }
+
+  .footer-description {
+    width: 100%;
+  }
+
+  .mobile-footer-logo {
+    display: block;
+    margin-top: 60px;
+    margin-bottom: 20px;
+    height: 100px;
+  }
+
+  .heading-top-footer {
+    font-size: 30px;
+    margin-top: 80px;
+  }
+
+  .footer-schedule-btn {
+    font-size: 20px;
+  }
+
+  .footer-btn-wrapper {
+    margin-bottom: 80px;
+  }
+
+  .footer-logo-text {
+    margin-top: 50px;
+  }
+}

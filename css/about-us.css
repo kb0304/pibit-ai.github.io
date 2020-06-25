@@ -1,0 +1,114 @@
+.team-banner-image {
+  width: 100%;
+  margin-top: 20px;
+}
+
+.about-us-description {
+  font-size: 24px;
+  padding: 20px
+}
+
+.founders-heading {
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 36px;
+  font-weight: 600;
+  color: #251a4a;
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
+
+.founders-image {
+  height: 250px;
+}
+
+.founder-name {
+  font-size: 22px;
+  font-weight: bold;
+  margin-top: 40px;
+  margin-bottom: 0;
+}
+
+.founder-designation {
+  font-size: 22px;
+  font-weight: 500;
+  color: rgba(0, 0, 0, 0.38);
+  margin-bottom: 15px;
+}
+
+.founder-description {
+  font-size: 18px;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.founder-detail-wrapper {
+  background-color: #ffffff;
+  height: 603px;
+  border-radius: 10px;
+  box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.06);
+  padding: 20px 30px;
+}
+
+.founder-outer-wrapper {
+  padding: 0 30px;
+}
+
+.bottom-card-founder {
+  margin-bottom: 150px;
+}
+
+.yellow-dot-wrapper {
+  margin-top: 40px;
+}
+
+.yellow-circle {
+  padding: 5px 14px;
+  background-color: #fedd00;
+  border-radius: 20px;
+}
+
+.about-us-heading {
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 36px;
+  font-weight: bold;
+  color: #000000;
+  margin-top: 70px;
+}
+
+@media (max-width: 768px) {
+  .about-us-heading {
+    font-size: 30px;
+    margin-top: 30px;
+  }
+
+  .about-us-description {
+    font-size: 16px;
+    padding: 10px;
+    text-align: justify;
+  }
+
+  .founders-heading {
+    font-size: 30px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+
+  .founder-detail-wrapper {
+    height: auto;
+    padding: 20px 10px;
+    margin-bottom: 30px;
+  }
+
+  .founder-designation {
+    font-size: 18px;
+    margin-top: 8px;
+  }
+
+  .founder-description {
+    font-size: 16px;
+    text-align: justify;
+  }
+
+  .bottom-card-founder {
+    margin-bottom: 80px;
+  }
+}

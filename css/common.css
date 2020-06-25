@@ -1,0 +1,157 @@
+body {
+  font-family: 'Noto Sans', sans-serif;
+}
+
+.text-bold {
+  font-weight: 600;
+}
+
+.page-banner-top {
+  height: 600px;
+}
+
+.banner-btn-home {
+  width: 299px;
+  height: 61px;
+  border-radius: 8px;
+  background-color: #7151e3;
+  border: none;
+  font-size: 24px;
+  font-weight: 500;
+  color: #fff;
+  margin-top: 36px;
+}
+
+.banner-btn-home:focus {
+  outline: none;
+}
+
+.margin-bottom-75 {
+  margin-bottom: 75px;
+}
+
+.float-left {
+  float: left;
+}
+
+.float-right {
+  float: right;
+}
+
+.font-blue {
+  color: #251a4a !important;
+}
+
+.padding-0 {
+    padding: 0 !important;
+}
+
+.mobile-element {
+  display: none;
+}
+
+.navbar-brand {
+  padding: 0;
+  padding-top: 6px;
+  font-size: 22px;
+  font-weight: 600;
+  color: #251a4a !important;
+  margin-right: 20px;
+}
+
+.navbar-logo {
+  height: 40px;
+  padding: 0 !important;
+  margin-right: 5px;
+  margin-left: 10px;
+}
+
+.modal-wrapper {
+  height: 100vh;
+  width: 100%;
+  z-index: 1;
+  background-color: black;
+  position: fixed;
+  top: 0;
+  opacity: 0.7;
+}
+
+.success-modal {
+  border-radius: 10px;
+  box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.06);
+  background-color: #ffffff;
+  padding: 40px;
+  position: fixed;
+  top: 40%;
+  z-index: 1;
+}
+
+.success-text {
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 32px;
+  font-weight: 500;
+  color: #251a4a;
+}
+
+.modal-btn-wrapper {
+  margin-top: 30px;
+}
+
+.modal-close-btn {
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 32px;
+  font-weight: 500;
+  color: #7151e3;
+  padding: 0 20px;
+  cursor: pointer;
+}
+
+.visible {
+  display: block;
+}
+
+#modal-hide {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .font-mobile-16 {
+    font-size: 16px !important;
+  }
+
+  .mobile-center {
+    text-align: center !important;
+  }
+
+  .desktop-element {
+    display: none;
+  }
+
+  .mobile-element {
+    display: block;
+  }
+
+  .banner-btn-home {
+    width: 240px;
+    font-size: 22px;
+  }
+
+  .page-banner-top {
+    height: auto;
+    padding-bottom: 60px;
+  }
+
+  .success-modal {
+    padding: 20px;
+    top: 20%;
+    margin: 15px;
+  }
+
+  .success-text {
+    font-size: 22px;
+  }
+
+  .modal-close-btn {
+    font-size: 22px;
+  }
+}

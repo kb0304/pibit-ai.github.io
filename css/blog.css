@@ -1,0 +1,157 @@
+.blog-box-wrapper {
+  border-radius: 10px;
+  box-shadow: 0 0 45px 0 rgba(0, 0, 0, 0.12);
+  background-color: #ffffff;
+  height: 400px;
+  margin-bottom: 90px;
+}
+
+.blog-content-wrapper {
+  padding: 60px 40px 60px 80px;
+}
+
+.blog-heading {
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 30px;
+  color: #000000;
+}
+
+.blog-text {
+  font-size: 22px;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.blog-thumbnail {
+  height: 400px;
+}
+
+.blog-read-time {
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 30px;
+  color: rgba(0, 0, 0, 0.4);
+}
+
+.blog-welcome-text {
+  font-size: 26px;
+  font-family: 'IBM Plex Mono', monospace;
+  font-weight: 500;
+  color: #000000;
+  margin-top: 90px;
+  margin-bottom: 95px;
+}
+
+.blog-title-text {
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 36px;
+  font-weight: 600;
+  color: #251a4a;
+  margin-top: 80px;
+}
+
+.blog-timestamp {
+  font-size: 22px;
+  color: rgba(0, 0, 0, 0.4);
+  margin-top: 35px;
+  margin-bottom: 35px;
+}
+
+.blog-main-image {
+  width: 100%;
+}
+
+.quote-wrapper {
+  background-color: #f4f2fd;
+  padding: 30px;
+  margin-bottom: 60px;
+  margin-top: 60px;
+}
+
+.blog-quote-text {
+  font-size: 22px;
+  font-family: 'IBM Plex Mono', monospace;
+  font-weight: 300;
+  color: #000000;
+}
+
+.blog-title-heading {
+  font-size: 28px;
+  font-family: 'IBM Plex Mono', monospace;
+  font-weight: 500;
+}
+
+.blog-paragraph {
+  font-size: 22px;
+  margin-bottom: 80px;
+}
+
+.blog-detail-wrapper {
+  margin-bottom: 100px;
+}
+
+@media (max-width: 768px) {
+  .blog-box-wrapper {
+    margin-left: 10px;
+    margin-right: 10px;
+    height: auto;
+    padding-bottom: 20px;
+  }
+
+  .blog-content-wrapper {
+    padding: 20px;
+  }
+
+  .blog-thumbnail {
+    width: 100%;
+    max-width: 450px;
+    height: auto;
+  }
+
+  .blog-welcome-text {
+    margin-top: 40px;
+    margin-bottom: 60px;
+  }
+
+  .blog-text {
+    font-size: 16px;
+  }
+
+  .blog-heading {
+    font-size: 22px;
+  }
+
+  .blog-read-time {
+    font-size: 14px;
+    font-weight: bold;
+    margin-top: 10px;
+  }
+
+  .blog-title-text {
+    font-size: 26px;
+    margin-top: 40px;
+  }
+
+  .blog-timestamp {
+    font-size: 14px;
+    margin-top: 5px;
+  }
+
+  .quote-wrapper {
+    padding: 5px;
+    margin-bottom: 40px;
+    margin-top: 40px;
+  }
+
+  .blog-quote-text {
+    font-size: 18px;
+  }
+
+  .blog-paragraph {
+    font-size: 18px;
+    margin-bottom: 40px;
+  }
+
+  .blog-title-heading {
+    font-size: 24px;
+  }
+}
