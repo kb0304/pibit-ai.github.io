@@ -144,6 +144,22 @@ footer {
   z-index: -1;
 }
 
+.home-products-link {
+  font-size: 24px;
+  color: #7151e3;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.home-products-link:hover {
+  text-decoration: none;
+  color: #7151e3;
+}
+
+.home-products-link .fa-angle-down:before {
+  font-weight: bold;
+}
+
 @media (min-width: 768px) {
   .navbar-nav {
     float: right;

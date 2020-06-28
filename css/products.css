@@ -6,8 +6,8 @@
 }
 
 .product-banner-image {
-  height: 340px;
-  margin-top: 150px;
+  height: 550px;
+  margin-top: 100px;
 }
 
 .banner-yellow-area {
@@ -80,6 +80,11 @@
   margin-right: 30px;
 }
 
+.fast-processing-icon {
+  height: 80px !important;
+  margin-bottom: 30px;
+}
+
 .benefits-heading {
   font-family: 'IBM Plex Mono', monospace;
   font-size: 20px;
@@ -96,7 +101,7 @@
 }
 
 .benefits-details-long {
-  font-size: 12px;
+  font-size: 15px;
   color: #000000;
   margin-left: 140px;
   width: 60%;
@@ -356,8 +361,12 @@
     height: auto !important;
   }
 
+  .mobile-precess-card-long {
+    top: -75px !important;
+  }
+
   .product-detail-wrapper {
-    margin-top: 30px;
+    margin-top: 0;
   }
 
   .mobile-margin-bottom-40 {

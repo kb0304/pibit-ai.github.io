@@ -82,24 +82,24 @@ body {
   background-color: #ffffff;
   padding: 40px;
   position: fixed;
-  top: 40%;
+  top: 30%;
   z-index: 1;
 }
 
 .success-text {
   font-family: 'IBM Plex Mono', monospace;
-  font-size: 32px;
+  font-size: 22px;
   font-weight: 500;
   color: #251a4a;
 }
 
 .modal-btn-wrapper {
-  margin-top: 30px;
+  margin-top: 20px;
 }
 
 .modal-close-btn {
   font-family: 'IBM Plex Mono', monospace;
-  font-size: 32px;
+  font-size: 22px;
   font-weight: 500;
   color: #7151e3;
   padding: 0 20px;
@@ -112,6 +112,10 @@ body {
 
 #modal-hide {
   display: none;
+}
+
+.font-32{
+  font-size: 32px !important;
 }
 
 @media (max-width: 768px) {
@@ -148,10 +152,10 @@ body {
   }
 
   .success-text {
-    font-size: 22px;
+    font-size: 16px;
   }
 
   .modal-close-btn {
-    font-size: 22px;
+    font-size: 16px;
   }
 }

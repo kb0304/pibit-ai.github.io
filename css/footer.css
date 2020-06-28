@@ -47,6 +47,10 @@ footer {
   cursor: pointer;
 }
 
+.footer-product-links:hover {
+  color: #fedd00;
+}
+
 .product-right-links-wrapper {
   margin-top: 85px;
   margin-bottom: 75px;
