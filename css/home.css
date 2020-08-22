@@ -43,7 +43,7 @@ footer {
 }
 
 .three-part-circle-image {
-  height: 500px;
+  height: auto;
   margin-top: 125px;
 }
 
@@ -138,7 +138,7 @@ footer {
 }
 
 .home-banner-image {
-  height: 600px;
+  height: 580px;
   position: absolute;
   left: -80px;
   z-index: -1;
@@ -158,6 +158,47 @@ footer {
 
 .home-products-link .fa-angle-down:before {
   font-weight: bold;
+}
+
+@media (max-width: 991px) {
+  .home-banner-image {
+    height: 470px;
+    left: -30px;
+  }
+
+  .three-part-circle-image {
+    height: 340px;
+    margin-top: 75px;
+  }
+
+  .banner-text-top-line {
+    margin-top: 75px;
+  }
+
+  .banner-mobile-heading {
+    font-size: 22px !important;
+  }
+
+  .content-text-mobile {
+    font-size: 16px;
+  }
+
+  .banner-light-orange {
+    height: auto;
+    padding-bottom: 70px;
+  }
+
+  .banner-white {
+    height: auto;
+  }
+  
+  .banner-large-light-orange {
+    height: auto;
+  }
+
+  .unique-section-details {
+    font-size: 16px;
+  }
 }
 
 @media (min-width: 768px) {
@@ -239,5 +280,16 @@ footer {
 
   .navbar-inverse .navbar-toggle .icon-bar {
     background-color: grey;
+  }
+  
+}
+
+@media (width: 768px) {
+  .model-demo-image {
+    margin-top: 50px;
+  }
+  
+  .top-heading-banner {
+    margin-top: 90px;
   }
 }
