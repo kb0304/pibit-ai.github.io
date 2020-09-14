@@ -19,6 +19,7 @@
   <link rel="stylesheet" href="css/navbar.css">
   <link rel="stylesheet" href="css/footer.css">
   <link rel="stylesheet" href="css/about-us.css">
+  <script type="text/javascript" src="public/js/common.js"></script>
 </head>
 
 <body>
@@ -36,21 +37,32 @@
       </div>
       <div class="collapse navbar-collapse" id="myNavbar">
         <ul class="nav navbar-nav">
-          <li class="dropdown show">
+          <li class="dropdown show products-list">
             <a class="btn btn-secondary dropdown-toggle nav-links links-left" href="#" role="button"
               id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
               Solution<span class="yellow-circle-nav"></span>
             </a>
 
-            <div class="dropdown-menu products-dropdown-menu" aria-labelledby="dropdownMenuLink">
-              <a class="dropdown-item" href="damage-assessor.html">Document Intelligence</a>
-              <a class="dropdown-item" href="data-extractor.html">Inspection Intelligence</a>
+            <div class="dropdown-menu products-dropdown-menu" id="solutionsMenu" aria-labelledby="dropdownMenuLink">
+              <p class="dropdown-item" id="dropdownMenuLink1">Document
+                Intelligence</p>
+              <div id="dropdownCatalog1" class="products-dropdown-menu desktop-d-none">
+                <a class="dropdown-item dropdown-sub-links" href="data-extractor.html">Invoice OCR</a>
+                <a class="dropdown-item dropdown-sub-links" href="data-extractor.html">Aadhar OCR</a>
+                <a class="dropdown-item dropdown-sub-links" href="data-extractor.html">PAN OCR</a>
+                <a class="dropdown-item dropdown-sub-links" href="data-extractor.html">License Plate OCR</a>
+              </div>
+              <a class="dropdown-item" href="damage-assessor.html" role="button" id="dropdownMenuLink2">Inspection
+                Intelligence</a>
+              <div id="dropdownCatalog2" class="desktop-d-none">
+                <a class="dropdown-item dropdown-sub-links" href="damage-assessor.html">Pre-inspection</a>
+                <a class="dropdown-item dropdown-sub-links" href="damage-assessor.html">Damage Assessment</a>
+              </div>
               <a class="dropdown-item" href="document-classifier.html">Image Classifier</a>
             </div>
           </li>
           <li><a href="blog.html" class="nav-links links-left">Blogs<span class="yellow-circle-nav"></span></a></li>
-          <li><a href="about-us.html" class="nav-links links-left active-link">About Us<span
-                class="yellow-circle-nav"></span></a>
+          <li><a href="about-us.html" class="nav-links links-left">About Us<span class="yellow-circle-nav"></span></a>
           </li>
         </ul>
         <a href="schedule-demo.html"><span class="right-link-navbar">Schedule a Demo</span></a>
