@@ -147,9 +147,17 @@
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
   .navbar-nav>li>a {
     width: 100%;
+  }
+
+  .products-dropdown-menu {
+    background-color: white;
+  }
+
+  .dropdown-sub-links {
+    padding-left: 50px !important;
   }
 
   .right-link-navbar {

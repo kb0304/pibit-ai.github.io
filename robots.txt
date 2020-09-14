@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 Allow: /sitemap.htm
-Sitemap: https://aiclaim.tech/sitemap.xml
+Sitemap: https://pibit.ai/sitemap.xml

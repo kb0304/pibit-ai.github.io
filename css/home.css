@@ -160,6 +160,10 @@ footer {
   font-weight: bold;
 }
 
+.banner-description {
+  margin-top: 20px;
+}
+
 @media (max-width: 991px) {
   .home-banner-image {
     height: 470px;
