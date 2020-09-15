@@ -129,6 +129,10 @@ body {
   margin-bottom: 0 !important;
 }
 
+#dropdownCatalog1 {
+  width: 280px !important;
+}
+
 .d-none {
   display: none;
 }

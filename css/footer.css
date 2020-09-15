@@ -40,7 +40,7 @@ footer {
 }
 
 .footer-product-links {
-  font-size: 24px;
+  font-size: 20px;
   text-decoration: underline;
   color: #ffffff;
   margin-right: 25px;
@@ -111,7 +111,7 @@ footer {
 
 @media (max-width: 768px) {
   .footer-product-links {
-    font-size: 18px;
+    font-size: 16px;
     display: block;
   }
 
