@@ -39,6 +39,12 @@ footer {
   cursor: pointer;
 }
 
+.footer-product {
+  font-size: 20px;
+  color: #ffffff;
+  margin-right: 25px;
+}
+
 .footer-product-links {
   font-size: 20px;
   text-decoration: underline;
