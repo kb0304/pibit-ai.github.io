@@ -11,6 +11,11 @@
     border-color: #F4F7FE;
 }
 
+.navbar-inverse-data-extractor {
+    background: #ffffff;
+    border-color: #ffffff;
+}
+
 .dark-nav {
     background-color: #251a4a !important;
     margin-top: 0 !important;
@@ -52,12 +57,13 @@
 .right-link-navbar {
     font-size: 20px;
     font-weight: 500;
-    color: #6551e3;
+    color: #0955FF;
     border: solid 2px #ffffff;
     float: right;
     line-height: 50px;
     cursor: pointer;
     padding: 0 20px;
+    border: 2px solid #0955FF;
 }
 
 .right-link-navbar:hover {

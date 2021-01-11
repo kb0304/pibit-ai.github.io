@@ -11,13 +11,13 @@ footer {
 }
 
 .heading-top-footer {
-    font-family: 'IBM Plex Mono', monospace;
+    font-family: Montserrat;
     font-size: 36px;
     font-weight: bold;
     font-stretch: normal;
     font-style: normal;
     line-height: 1.41;
-    letter-spacing: 0.9px;
+    letter-spacing: 0.025em;
     color: #02042B;
     margin-top: 140px;
     margin-bottom: 40px;
@@ -28,10 +28,11 @@ footer {
 }
 
 .footer-schedule-btn {
+    font-family: Montserrat;
     width: 299px;
     height: 61px;
     border-radius: 8px;
-    background-color: #7151e3;
+    background-color: #0955FF;
     font-size: 24px;
     font-weight: 500;
     color: #ffffff;
@@ -55,7 +56,7 @@ footer {
 }
 
 .footer-product-links:hover {
-    color: #fedd00;
+    color: #2089c2
 }
 
 .product-right-links-wrapper {
@@ -139,6 +140,10 @@ footer {
         margin-top: 80px;
     }
     .footer-schedule-btn {
+        margin-top: 20px;
+        font-size: 20px;
+    }
+    .footer-schedule-btn-products {
         margin-top: 20px;
         font-size: 20px;
     }
