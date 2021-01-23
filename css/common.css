@@ -6,7 +6,7 @@ body {
     position: absolute;
     width: 450px;
     height: 133px;
-    right: -400px;
+    right: -5em;
     margin-top: 130px;
 }
 
@@ -138,7 +138,7 @@ body {
 }
 
 .font-32 {
-    font-size: 32px !important;
+    font-size: 2.8em !important;
 }
 
 .font-20 {
