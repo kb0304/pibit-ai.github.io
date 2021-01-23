@@ -2,237 +2,225 @@
 <html lang="en">
 
 <head>
-  <title>Simplifying Digital Document Sorting using AI</title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description"
-    content=" Classifying and sorting of digital documents without any human efforts. Handling of digital documents is now a hassle free experience.">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@100;300;500;600&display=swap"
-    rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  <link rel="icon" href="public/images/home/logo-colored.png" type="image/gif" sizes="16x16">
-  <link rel="stylesheet" href="css/common.css">
-  <link rel="stylesheet" href="css/navbar.css">
-  <link rel="stylesheet" href="css/footer.css">
-  <link rel="stylesheet" href="css/products.css">
-  <script type="text/javascript" src="public/js/common.js"></script>
+    <title>Simplifying Digital Document Sorting using AI</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content=" Classifying and sorting of digital documents without any human efforts. Handling of digital documents is now a hassle free experience.">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@100;300;500;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="icon" href="public/images/home/logo-colored.png" type="image/gif" sizes="16x16">
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/navbar.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/products.css">
+    <script type="text/javascript" src="public/js/common.js"></script>
 </head>
 
 <body>
 
-  <nav class="navbar navbar-inverse">
-    <div class="container">
-      <div class="navbar-header">
-        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+    <nav class="navbar navbar-inverse">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
         </button>
-        <a class="navbar-brand" href="/"><span><img class="navbar-logo"
+                <a class="navbar-brand" href="/"><span><img class="navbar-logo"
               src="public/images/home/logo-colored.png"></span>Pibit.ai</a>
-      </div>
-      <div class="collapse navbar-collapse" id="myNavbar">
-        <ul class="nav navbar-nav">
-          <li class="dropdown show products-list">
-            <a class="btn btn-secondary dropdown-toggle nav-links links-left" href="#" role="button"
-              id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            </div>
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav">
+                    <li class="dropdown show products-list">
+                        <a class="btn btn-secondary dropdown-toggle nav-links links-left" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
               Solution<span class="yellow-circle-nav"></span>
             </a>
 
-            <div class="dropdown-menu products-dropdown-menu" id="solutionsMenu" aria-labelledby="dropdownMenuLink">
-              <p class="dropdown-item" id="dropdownMenuLink1">Document
-                Intelligence</p>
-              <div id="dropdownCatalog1" class="products-dropdown-menu desktop-d-none">
-                <a class="dropdown-item dropdown-sub-links" href="data-extractor.html">Invoice OCR</a>
-                <a class="dropdown-item dropdown-sub-links" href="data-extractor.html">Aadhar OCR</a>
-                <a class="dropdown-item dropdown-sub-links" href="data-extractor.html">PAN OCR</a>
-                <a class="dropdown-item dropdown-sub-links" href="data-extractor.html">License Plate OCR</a>
-              </div>
-              <a class="dropdown-item" href="damage-assessor.html" role="button" id="dropdownMenuLink2">Inspection
+                        <div class="dropdown-menu products-dropdown-menu" id="solutionsMenu" aria-labelledby="dropdownMenuLink">
+                            <p class="dropdown-item" id="dropdownMenuLink1">Document Intelligence
+                            </p>
+                            <div id="dropdownCatalog1" class="products-dropdown-menu desktop-d-none">
+                                <a class="dropdown-item dropdown-sub-links" href="data-extractor.html">Invoice OCR</a>
+                                <a class="dropdown-item dropdown-sub-links" href="data-extractor.html">Aadhar OCR</a>
+                                <a class="dropdown-item dropdown-sub-links" href="data-extractor.html">PAN OCR</a>
+                                <a class="dropdown-item dropdown-sub-links" href="data-extractor.html">License Plate OCR</a>
+                            </div>
+                            <a class="dropdown-item" href="damage-assessor.html" role="button" id="dropdownMenuLink2">Inspection
                 Intelligence</a>
-              <div id="dropdownCatalog2" class="desktop-d-none">
-                <a class="dropdown-item dropdown-sub-links" href="damage-assessor.html">Pre-inspection</a>
-                <a class="dropdown-item dropdown-sub-links" href="damage-assessor.html">Damage Assessment</a>
-              </div>
-              <a class="dropdown-item" href="document-classifier.html">Image Classifier</a>
+                            <div id="dropdownCatalog2" class="desktop-d-none">
+                                <a class="dropdown-item dropdown-sub-links" href="damage-assessor.html">Pre-inspection</a>
+                                <a class="dropdown-item dropdown-sub-links" href="damage-assessor.html">Damage Assessment</a>
+                            </div>
+                            <a class="dropdown-item" href="document-classifier.html">Image Classifier</a>
+                        </div>
+                    </li>
+                    <li><a href="blog.html" class="nav-links links-left">Blogs<span class="yellow-circle-nav"></span></a></li>
+                    <li><a href="about-us.html" class="nav-links links-left">About Us<span class="yellow-circle-nav"></span></a>
+                    </li>
+                </ul>
+                <a href="schedule-demo.html"><span class="right-link-navbar">Schedule a Demo</span></a>
             </div>
-          </li>
-          <li><a href="blog.html" class="nav-links links-left">Blogs<span class="yellow-circle-nav"></span></a></li>
-          <li><a href="about-us.html" class="nav-links links-left">About Us<span class="yellow-circle-nav"></span></a>
-          </li>
-        </ul>
-        <a href="schedule-demo.html"><span class="right-link-navbar">Schedule a Demo</span></a>
-      </div>
+        </div>
+    </nav>
+
+    <div class="migration-wrapper">
+        <p class="text-center migration-text">AI Claim is changed to <b>Pibit.ai</b></p>
     </div>
-  </nav>
 
-  <div class="migration-wrapper">
-    <p class="text-center migration-text">AI Claim is changed to <b>Pibit.ai</b></p>
-  </div>
-
-  <div class="container page-banner-top">
-    <div class="row">
-      <div class="col-sm-6 text-center mobile-element">
-        <img class="product-banner-image" src="public/images/products/digital_document_sorting.png"
-          alt="Artificial intelligence sorting digital documents" />
-      </div>
-      <div class="col-sm-6">
-        <p class="product-name-banner banner-text-top-line">Document Classifier</p>
-        <p class="product-extract">Automating digital document sorting</span></p>
-        <p class="product-description-banner">
-          Companies deal with 1000s of digital documents from invoices to object photos on a daily basis and
-          sorting of these documents is a tedious and time consuming process.
-          <br>
-          With our AI, we make sorting a seamless process!
-        </p>
-        <button class="banner-btn-home">Schedule a Demo</button>
-      </div>
-      <div class="col-sm-6 text-center desktop-element">
-        <!-- <div class="banner-yellow-area"></div>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-6 text-center mobile-element">
+                <img class="product-banner-image" src="public/images/products/digital_document_sorting.png" alt="Artificial intelligence sorting digital documents" />
+            </div>
+            <div class="col-sm-6">
+                <p class="product-name-banner banner-text-top-line">Document Classifier</p>
+                <p class="product-extract">Automating digital document sorting</span>
+                </p>
+                <p class="product-description-banner">
+                    Companies deal with 1000s of digital documents from invoices to object photos on a daily basis and sorting of these documents is a tedious and time consuming process.
+                    <br> With our AI, we make sorting a seamless process!
+                </p>
+                <button class="banner-btn-home">Schedule a Demo</button>
+            </div>
+            <div class="col-sm-6 text-center desktop-element">
+                <!-- <div class="banner-yellow-area"></div>
         <div class="banner-blue-area"></div> -->
-        <img class="product-banner-image" src="public/images/products/digital_document_sorting.png"
-          alt="Artificial intelligence sorting digital documents" />
-      </div>
+                <img class="product-banner-image" src="public/images/products/digital_document_sorting.png" alt="Artificial intelligence sorting digital documents" />
+            </div>
+        </div>
     </div>
-  </div>
 
-  <div class="container mobile-center">
-    <div class="row">
-      <div class="col-sm-12">
-        <p class="product-experience-heading text-center">Say hello to a hassle free experience</p>
-      </div>
-      <div class="col-sm-6 product-detail-wrapper">
-        <span class=""><img class="benefits-image"
+    <div class="container mobile-center">
+        <div class="row">
+            <div class="col-sm-12">
+                <p class="product-experience-heading text-center">Say hello to a hassle free experience</p>
+            </div>
+            <div class="col-sm-6 product-detail-wrapper">
+                <span class=""><img class="benefits-image"
             src="public/images/products/classifier-image/Larger vol.png" /></span>
-        <p class="benefits-heading">Larger Volumes</p>
-        <p class="benefits-details">Non stop picking out information from endless no. of documents.</p>
-      </div>
-      <div class="col-sm-6 product-detail-wrapper">
-        <span class=""><img class="benefits-image fast-processing-icon"
+                <p class="benefits-heading">Larger Volumes</p>
+                <p class="benefits-details">Non stop picking out information from endless no. of documents.</p>
+            </div>
+            <div class="col-sm-6 product-detail-wrapper">
+                <span class=""><img class="benefits-image fast-processing-icon"
             src="public/images/products/classifier-image/fast processing.png" /></span>
-        <p class="benefits-heading">Fast processing</p>
-        <p class="benefits-details">Classifier take less than a minute to segregate documents.</p>
-      </div>
-      <div class="col-sm-6 product-detail-wrapper">
-        <span class=""><img class="benefits-image"
+                <p class="benefits-heading">Fast processing</p>
+                <p class="benefits-details">Classifier take less than a minute to segregate documents.</p>
+            </div>
+            <div class="col-sm-6 product-detail-wrapper">
+                <span class=""><img class="benefits-image"
             src="public/images/products/classifier-image/multiple docs.png" /></span>
-        <p class="benefits-heading">Classifies Multiple documents</p>
-        <p class="benefits-details">Our AI classifies documents into invoices, pan card, aadhar card, driving license,
-          insurance policy etc.</p>
-      </div>
-      <div class="col-sm-6 product-detail-wrapper">
-        <span class=""><img class="benefits-image"
+                <p class="benefits-heading">Classifies Multiple documents</p>
+                <p class="benefits-details">Our AI classifies documents into invoices, pan card, aadhar card, driving license, insurance policy etc.</p>
+            </div>
+            <div class="col-sm-6 product-detail-wrapper">
+                <span class=""><img class="benefits-image"
             src="public/images/products/classifier-image/fast deployment.png" /></span>
-        <p class="benefits-heading">Fast deployment</p>
-        <p class="benefits-details">Deploy Document classifier within few days in your present systems.</p>
-      </div>
+                <p class="benefits-heading">Fast deployment</p>
+                <p class="benefits-details">Deploy Document classifier within few days in your present systems.</p>
+            </div>
+        </div>
     </div>
-  </div>
 
-  <div class="container">
-    <div class="row">
-      <div class="col-sm-12">
-        <p class="product-experience-heading second-section-heading text-center">Get the most out of Document Classifier
-        </p>
-      </div>
-      <div class="col-sm-4 mobile-margin-bottom-40">
-        <div class="light-pink-box text-center">
-          <p class="features-heading">Seamless integration</p>
-          <p class="features-details">Our product is customisable. It is cloud based and API friendly.</p>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12">
+                <p class="product-experience-heading second-section-heading text-center">Get the most out of Document Classifier
+                </p>
+            </div>
+            <div class="col-sm-4 mobile-margin-bottom-40">
+                <div class="light-pink-box text-center">
+                    <p class="features-heading">Seamless integration</p>
+                    <p class="features-details">Our product is customisable. It is cloud based and API friendly.</p>
+                </div>
+            </div>
+            <div class="col-sm-4 mobile-margin-bottom-40">
+                <div class="light-yellow-box text-center">
+                    <p class="features-heading">Import in any format</p>
+                    <p class="features-details">Our classifier supports different document types like PDFs, JPGs and PNGs</p>
+                </div>
+            </div>
+            <div class="col-sm-4 mobile-margin-bottom-40">
+                <div class="light-pink-box text-center">
+                    <p class="features-heading">Export data in the form of folders</p>
+                    <p class="features-details">Export documents in the form of classified folders</p>
+                </div>
+            </div>
         </div>
-      </div>
-      <div class="col-sm-4 mobile-margin-bottom-40">
-        <div class="light-yellow-box text-center">
-          <p class="features-heading">Import in any format</p>
-          <p class="features-details">Our classifier supports different document types like PDFs, JPGs and PNGs</p>
-        </div>
-      </div>
-      <div class="col-sm-4 mobile-margin-bottom-40">
-        <div class="light-pink-box text-center">
-          <p class="features-heading">Export data in the form of folders</p>
-          <p class="features-details">Export documents in the form of classified folders</p>
-        </div>
-      </div>
     </div>
-  </div>
 
-  <div class="container">
-    <div class="row">
-      <div class="col-sm-12">
-        <p class="product-experience-heading text-center">Extract data in 3 easy steps</p>
-        <!-- <p class="process-card-wrapper">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12">
+                <p class="product-experience-heading text-center">Extract data in 3 easy steps</p>
+                <!-- <p class="process-card-wrapper">
           <span class="process-map-initial-card">Upload images/pdfs</span>
           <span class="process-map-end-card">Extract Data</span>
         </p> -->
-      </div>
-      <div class="col-sm-10 col-sm-offset-1 process-card-wrapper">
-        <p class="process-bar text-center">
-          <span class="process-map-card left-process-card">Upload images/pdfs</span>
-          <span class="process-map-card mid-process-card">Verification</span>
-          <span class="process-map-card right-process-card">Export Segregated documents</span>
-          <span class="process-circle left-circle">1</span>
-          <span class="process-circle mid-circle">2</span>
-          <span class="process-circle right-circle">3</span>
-        </p>
-      </div>
-    </div>
-  </div>
-
-  <footer class="container-fluid footer-wrapper">
-    <div class="row">
-      <div class="container">
-        <div class="row">
-          <div class="col-sm-12 footer-top">
-            <p class="heading-top-footer text-center">Automate your processes with Pibit.ai</p>
-            <p class="text-center footer-btn-wrapper"><a class="footer-demo-btn-link" href="schedule-demo.html"><span
-                  class="footer-schedule-btn">Schedule a Demo</span></a>
-            </p>
-          </div>
-          <div class="col-sm-12">
-            <div class="row">
-              <div class="col-sm-8">
-                <p class="bottom-footer-heading">Products:</p>
-                <p class="product-links-wrapper">
-                  <a href="data-extractor.html"><span class="footer-product-links">Document Intelligence</span></a>
-                  <a href="damage-assessor.html"><span class="footer-product-links">Inspection Intelligence</span></a>
-                  <a href="document-classifier.html"><span class="footer-product-links">Image Classifier</span></a>
-                </p>
-                <p class="desktop-element footer-logo-text"><img class="footer-logo"
-                    src="public/images/home/logo-white.png">Pibit.ai
-                </p>
-                <p class="footer-description desktop-element">Pibit.ai is an artificial intelligence-based software
-                  solution company providing products to industries to automate the manual recurring task.
-                </p>
-                <p class="footer-copyright desktop-element">&copy; All Rights Reserved</p>
-              </div>
-              <div class="col-sm-4">
-                <p class="product-right-links-wrapper">
-                  <a href="about-us.html"><span class="footer-product-links">About Us</span></a>
-                  <a href="blog.html"><span class="footer-product-links">Blog</span></a>
-                  <a href="schedule-demo.html"><span class="footer-product-links">Demo</span></a>
-                </p>
-                <p>
-                  <a href="https://www.linkedin.com/company/ai-claim/" class="social-link-linkedIn" target="_blank"><img
-                      src="public/images/common/linked-in-square.png"></a>
-                </p>
-                <a href="contact-us.html"><span class="footer-product-links">Contact Us</span></a>
-                <p class="mobile-element footer-logo-text"><img class="footer-logo"
-                    src="public/images/home/logo-white.png">Pibit.ai
-                </p>
-                <p class="footer-description mobile-element">Pibit.ai is an artificial intelligence-based software
-                  solution company providing products to industries to automate the manual recurring task.
-                </p>
-                <p class="footer-copyright mobile-element">&copy; All Rights Reserved</p>
-              </div>
             </div>
-          </div>
+            <div class="col-sm-10 col-sm-offset-1 process-card-wrapper">
+                <p class="process-bar text-center">
+                    <span class="process-map-card left-process-card">Upload images/pdfs</span>
+                    <span class="process-map-card mid-process-card">Verification</span>
+                    <span class="process-map-card right-process-card">Export Segregated documents</span>
+                    <span class="process-circle left-circle">1</span>
+                    <span class="process-circle mid-circle">2</span>
+                    <span class="process-circle right-circle">3</span>
+                </p>
+            </div>
         </div>
-      </div>
     </div>
-  </footer>
+
+    <footer class="container-fluid footer-wrapper">
+        <div class="row">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12 footer-top">
+                        <p class="heading-top-footer text-center">Automate your processes with Pibit.ai</p>
+                        <p class="text-center footer-btn-wrapper"><a class="footer-demo-btn-link" href="schedule-demo.html"><span
+                  class="footer-schedule-btn">Schedule a Demo</span></a>
+                        </p>
+                    </div>
+                    <div class="col-sm-12">
+                        <div class="row">
+                            <div class="col-sm-8">
+                                <p class="bottom-footer-heading">Products:</p>
+                                <p class="product-links-wrapper">
+                                    <a href="data-extractor.html"><span class="footer-product-links">Document Intelligence</span></a>
+                                    <a href="damage-assessor.html"><span class="footer-product-links">Inspection Intelligence</span></a>
+                                    <a href="document-classifier.html"><span class="footer-product-links">Image Classifier</span></a>
+                                </p>
+                                <p class="desktop-element footer-logo-text"><img class="footer-logo" src="public/images/home/logo-white.png">Pibit.ai
+                                </p>
+                                <p class="footer-description desktop-element">Pibit.ai is an artificial intelligence-based software solution company providing products to industries to automate the manual recurring task.
+                                </p>
+                                <p class="footer-copyright desktop-element">&copy; All Rights Reserved</p>
+                            </div>
+                            <div class="col-sm-4">
+                                <p class="product-right-links-wrapper">
+                                    <a href="about-us.html"><span class="footer-product-links">About Us</span></a>
+                                    <a href="blog.html"><span class="footer-product-links">Blog</span></a>
+                                    <a href="schedule-demo.html"><span class="footer-product-links">Demo</span></a>
+                                </p>
+                                <p>
+                                    <a href="https://www.linkedin.com/company/ai-claim/" class="social-link-linkedIn" target="_blank"><img src="public/images/common/linked-in-square.png"></a>
+                                </p>
+                                <a href="contact-us.html"><span class="footer-product-links">Contact Us</span></a>
+                                <p class="mobile-element footer-logo-text"><img class="footer-logo" src="public/images/home/logo-white.png">Pibit.ai
+                                </p>
+                                <p class="footer-description mobile-element">Pibit.ai is an artificial intelligence-based software solution company providing products to industries to automate the manual recurring task.
+                                </p>
+                                <p class="footer-copyright mobile-element">&copy; All Rights Reserved</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
 
 </body>

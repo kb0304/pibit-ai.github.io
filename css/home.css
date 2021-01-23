@@ -2,7 +2,6 @@
 
 body {
     background: #F4F7FE;
-    ;
 }
 
 footer {
@@ -115,6 +114,10 @@ footer {
     color: #9B9B9B;
 }
 
+.index-page-form {
+    margin-top: 130px;
+}
+
 .top-paragraph-content {
     margin-top: 34px;
 }
@@ -218,6 +221,14 @@ footer {
 }
 
 @media (max-width: 991px) {
+    .content-text-large {
+        font-family: Montserrat;
+        font-size: 24px;
+        font-weight: normal;
+        line-height: 1.236;
+        letter-spacing: 0.02em;
+        color: black;
+    }
     .home-banner-image {
         height: 470px;
         left: -30px;
@@ -227,7 +238,7 @@ footer {
         margin-top: 75px;
     }
     .banner-text-top-line {
-        margin-top: 75px;
+        margin-top: 90px;
     }
     .banner-mobile-heading {
         font-size: 22px !important;
@@ -257,6 +268,14 @@ footer {
 }
 
 @media (max-width: 768px) {
+    .content-text-large {
+        font-family: Montserrat;
+        font-size: 24px;
+        font-weight: normal;
+        line-height: 1.236;
+        letter-spacing: 0.02em;
+        color: black;
+    }
     .desktop-product-demo {
         display: none;
     }

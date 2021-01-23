@@ -24,8 +24,13 @@ body {
     font-weight: 600;
 }
 
+.page-banner-margin {
+    margin-right: 10px;
+}
+
 .page-banner-top {
     height: 600px;
+    width: 90%;
 }
 
 .banner-btn-home {
