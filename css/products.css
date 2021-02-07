@@ -381,11 +381,16 @@
         bottom: -50px;
         transform: translateX(-40%);
     }
+    .my-row {
+        margin-right: 0px;
+        margin-left: 0px;
+    }
     .right-process-card {
-        top: -62px;
+        top: -50px;
         transform: translateX(-5%);
-        width: 106px;
-        height: auto !important;
+        height: 26px;
+        padding-left: 20px;
+        bottom: -130px;
     }
     .mobile-precess-card-long {
         top: -75px !important;
