@@ -115,7 +115,8 @@ footer {
 }
 
 .index-page-form {
-    margin-top: 130px;
+    margin-top: 40px;
+    margin-bottom: 20px;
 }
 
 .top-paragraph-content {
@@ -194,10 +195,12 @@ footer {
 }
 
 .home-banner-image {
-    height: 580px;
+    height: 500px;
+    width: 50%;
+    left: 50%;
     position: absolute;
-    left: -80px;
     z-index: -1;
+    margin-top: 130px;
 }
 
 .home-products-link {
@@ -231,7 +234,6 @@ footer {
     }
     .home-banner-image {
         height: 470px;
-        left: -30px;
     }
     .three-part-circle-image {
         height: 340px;

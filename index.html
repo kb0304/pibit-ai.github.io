@@ -12,7 +12,7 @@
     <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@100;300;500;600&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="icon" href="public/images/home/logo-colored.png" type="image/gif" sizes="16x16">
+    <link rel="icon" href="public/images/home/full_logo.png" type="image/gif/png" sizes="16*16">
     <link rel="stylesheet" href="css/home.css">
     <link rel="stylesheet" href="css/common.css">
     <link rel="stylesheet" href="css/navbar.css">
@@ -49,14 +49,9 @@
                                 <a class="dropdown-item dropdown-sub-links" href="data-extractor.html">Aadhar OCR</a>
                                 <a class="dropdown-item dropdown-sub-links" href="data-extractor.html">PAN OCR</a>
                                 <a class="dropdown-item dropdown-sub-links" href="data-extractor.html">License Plate OCR</a>
+                                <a class="dropdown-item dropdown-sub-links" href="data-extractor.html">Discharge Summary OCR</a>
+                                <a class="dropdown-item dropdown-sub-links" href="data-extractor.html">Lab Report OCR</a>
                             </div>
-                            <a class="dropdown-item" href="damage-assessor.html" role="button" id="dropdownMenuLink2">Inspection
-                Intelligence</a>
-                            <div id="dropdownCatalog2" class="desktop-d-none">
-                                <a class="dropdown-item dropdown-sub-links" href="damage-assessor.html">Pre-inspection</a>
-                                <a class="dropdown-item dropdown-sub-links" href="damage-assessor.html">Damage Assessment</a>
-                            </div>
-                            <a class="dropdown-item" href="document-classifier.html">Image Classifier</a>
                         </div>
                     </li>
                     <li><a href="blog.html" class="nav-links links-left">Blogs<span class="yellow-circle-nav"></span></a></li>
@@ -75,15 +70,21 @@
                 <!-- <p class="banner-text-home banner-description font-20">Capture data from documents & detect damages on items, reduce turn around time and the manual efforts required</p> -->
                 <div>
                     <p class="subheading">
-                        Automate manual data entry & inspection <br/>processes using AI
+                        API to turn unstructured documents<br/>to structured data using AI
                     </p>
                 </div>
             </div>
 
+            <div class="desktop-element">
+                <img class="home-banner-image" src="public/images/home/index_design.jpg" alt="Landing-page-design">
+            </div>
 
+
+
+        </div>
+
+        <div class="row">
             <div class="col-sm-4 ">
-
-
                 <div class="index-page-form">
                     <form name="submit-to-google-sheet" class="custom-form bg-white row" id="personalInfoForm">
                         <div class="form-group col-lg-10">
@@ -101,6 +102,8 @@
             </div>
         </div>
     </div>
+
+
 
     <div class="container-fluid banner-light-orange">
         <div class="row">
@@ -135,7 +138,7 @@
                     <div class="col-sm-6">
                         <p class="banner-text-home text-bold top-heading-banner">Document Intelligence</p>
                         <p class="content-text-definitions top-paragraph-content font-mobile-16 content-text-mobile">Our AI extracts data from Invoices, documents like pan, aadhar into a structured data and accelerate the data entry process</p>
-                        </br><a class="footer-demo-btn-link" href="data-extractor.html"><span
+                        <a class="footer-demo-btn-link" href="data-extractor.html"><span
                       class="footer-schedule-btn">Learn More &nbsp;<i class="fa fa-chevron-right"
                       aria-hidden="true"></i></span></a>
 
@@ -144,47 +147,6 @@
             </div>
         </div>
     </div>
-
-    <div class="container-fluid banner-white desktop-product-demo">
-        <div class="row">
-            <div class="container">
-                <div class="row">
-
-                    <div class="col-sm-6">
-                        <p class="banner-text-home text-bold top-heading-banner">Inspection Intelligence</p>
-                        <p class="content-text-definitions top-paragraph-content font-mobile-16">Our AI gives expert level damage assessment instantly and faster the cost estimation process. So, claims can be settled faster, and livelihoods restored.</p>
-                        </br><a class="footer-demo-btn-link" href="damage-assessor.html"><span
-                    class="footer-schedule-btn">Learn More &nbsp;<i class="fa fa-chevron-right"
-                    aria-hidden="true"></i></span></a>
-                    </div>
-                    <div class="col-sm-6 text-center">
-                        <img class="model-demo-image" src="public/images/products/vehicle_damage_assessment.png" alt="Artificial intelligence assessing Vehicle damage" />
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <div class="container-fluid banner-white mobile-product-demo">
-        <div class="row">
-            <div class="container">
-                <div class="row">
-                    <div class="col-sm-6 text-center">
-                        <img class="model-demo-image" src="public/images/products/vehicle_damage_assessment.png" alt="Artificial intelligence assessing Vehicle damage" />
-                    </div>
-                    <div class="col-sm-6">
-                        <p class="banner-text-home text-bold top-heading-banner">Inspection Intelligence</p>
-                        <p class="content-text-definitions top-paragraph-content font-mobile-16">Our AI gives expert level damage assessment instantly and faster the cost estimation process. So, claims can be settled faster, and livelihoods restored.</p>
-                        </br><a class="footer-demo-btn-link" href="data-extractor.html"><span
-                        class="footer-schedule-btn">Learn More &nbsp;<i class="fa fa-chevron-right"
-                        aria-hidden="true"></i></span></a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-
 
     <div class="container-fluid banner-large-light-orange">
         <div class="row">
@@ -240,9 +202,12 @@
                                 <div class="col-sm-8">
                                     <p class="bottom-footer-heading">Products:</p>
                                     <p class="product-links-wrapper">
-                                        <a href="data-extractor.html"><span class="footer-product-links">Document Intelligence</span></a>
-                                        <a href="damage-assessor.html"><span class="footer-product-links">Inspection Intelligence</span></a>
-                                        <a href="document-classifier.html"><span class="footer-product-links">Image Classifier</span></a>
+                                        <a href="data-extractor.html"><span class="footer-product-links">Document Intelligence</span></a>&nbsp;&nbsp;&nbsp;&nbsp;
+                                        <a href="data-extractor.html"><span class="footer-product-links">Invoice OCR</span></a>&nbsp;&nbsp;&nbsp;&nbsp;
+                                        <a href="data-extractor.html"><span class="footer-product-links">Aadhar OCR</span></a> <br/><br/>
+                                        <a href="data-extractor.html"><span class="footer-product-links">License Plate OCR</span></a>&nbsp;&nbsp;&nbsp;&nbsp;
+                                        <a href="data-extractor.html"><span class="footer-product-links">Discharge Summary OCR</span></a>&nbsp;&nbsp;&nbsp;&nbsp;
+                                        <a href="data-extractor.html"><span class="footer-product-links">Lab Report OCR</span></a>
                                     </p>
                                     <p class="desktop-element footer-logo-text"><img class="footer-logo" src="public/images/home/logo-white.png">Pibit.ai
                                     </p>
